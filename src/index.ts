@@ -1,8 +1,11 @@
 import { Context, Hono } from "hono";
+import {cors } from "hono/cors"
 import payload from "./files/payload.json";
 import secondaryPayload from "./files/secondary.json";
 
 const app = new Hono();
+
+app.use(cors())
 
 app.get("/", async (c) => {
   return c.text("Who sent you here?");
