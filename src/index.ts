@@ -7,14 +7,13 @@ app.get("/", (c) => {
   return c.text("Hello Hono!");
 });
 
-app.get("/get-blogs", async (c: Context) => {
+app.get("/blogs/get", async (c: Context) => {
   return c.json(payload);
 });
 
 app.get("/blogs/:slug", async (c: Context) => {
   const slug = c.req.param("slug");
 
-  // const actualPayload = JSON.parse(payload);
   const getSelectedBlog = payload.posts?.find(
     (item: any) => item.slug === slug,
   );
