@@ -1,9 +1,10 @@
 import { Context, Hono } from "hono";
 import payload from "./files/payload.json";
+import secondaryPayload from "./files/secondary.json";
 
 const app = new Hono();
 
-app.get("/", (c) => {
+app.get("/", async (c) => {
   return c.text("Who sent you here?");
 });
 
@@ -23,6 +24,20 @@ app.get("/blogs/:slug", async (c: Context) => {
   }
 
   return c.json(getSelectedBlog);
+});
+
+app.get("/categories/get", async (c: Context) => {
+  return c.json(secondaryPayload.categories);
+});
+
+app.get("/categories/:id", async (c: Context) => {
+  const id = c.req.param("id");
+
+  const category = secondaryPayload.categories?.find(
+    (item: any) => item.id === id,
+  );
+
+  return c.json(category);
 });
 
 export default app;

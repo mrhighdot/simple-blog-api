@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "source": "mock-medium-api",
+    "generated_at": "2025-12-06T09:30:00Z"
+  },
+
+  "categories": [
+    { "id": "cat_tech", "name": "Technology", "slug": "technology" },
+    { "id": "cat_programming", "name": "Programming", "slug": "programming" },
+    { "id": "cat_life", "name": "Life Lessons", "slug": "life-lessons" },
+    { "id": "cat_productivity", "name": "Productivity", "slug": "productivity" },
+    { "id": "cat_career", "name": "Career Advice", "slug": "career-advice" },
+    { "id": "cat_design", "name": "Design", "slug": "design" },
+    { "id": "cat_ai", "name": "Artificial Intelligence", "slug": "ai" }
+  ],
+
+  "tags": [
+    "javascript", "backend", "frontend", "http", "databases",
+    "ai", "productivity", "career", "design-thinking",
+    "nodejs", "typescript", "webdev"
+  ],
+
+  "authors": [
+    {
+      "id": "auth_01",
+      "name": "Dr. Ama K.",
+      "username": "amak",
+      "followers": 3290,
+      "avatar": "https://images.example.com/avatars/ama.jpg",
+      "bio": "Software engineer & lecturer. Explains complex topics simply.",
+      "joined_at": "2021-03-11"
+    },
+    {
+      "id": "auth_02",
+      "name": "Kwesi Boateng",
+      "username": "kwesib",
+      "followers": 5810,
+      "avatar": "https://images.example.com/avatars/kwesi.jpg",
+      "bio": "Backend dev and API designer.",
+      "joined_at": "2020-09-20"
+    }
+  ],
+
+  "comments": [
+    {
+      "id": "cmt_001",
+      "post_id": "post_001",
+      "author": "Michael",
+      "avatar": "https://images.example.com/user1.jpg",
+      "content": "Very clear explanation! My students will find this useful.",
+      "posted_at": "2025-11-16T09:30:00Z"
+    },
+    {
+      "id": "cmt_002",
+      "post_id": "post_002",
+      "author": "Jennifer",
+      "avatar": "https://images.example.com/user2.jpg",
+      "content": "Loved the examples. Please do one for authentication!",
+      "posted_at": "2025-10-05T13:00:00Z"
+    }
+  ],
+
+  "users": [
+    {
+      "id": "user_001",
+      "name": "Student A",
+      "username": "studenta",
+      "email": "student@example.com",
+      "bookmarks": ["post_001", "post_002"],
+      "following_authors": ["auth_01"],
+      "joined_at": "2025-01-12"
+    }
+  ],
+
+  "recommended_posts": [
+    {
+      "user_id": "user_001",
+      "recommended": ["post_002", "post_001"]
+    }
+  ],
+
+  "trending_topics": [
+    { "topic": "AI Revolution", "mentions": 624 },
+    { "topic": "JavaScript Tips", "mentions": 491 },
+    { "topic": "Backend Scalability", "mentions": 430 }
+  ],
+
+  "notifications": [
+    {
+      "id": "notif_001",
+      "user_id": "user_001",
+      "message": "Your bookmarked post 'Understanding HTTP...' was updated.",
+      "seen": false,
+      "created_at": "2025-11-20T08:00:00Z"
+    }
+  ]
+}
