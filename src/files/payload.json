@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "source": "mock-medium-api",
+    "generated_at": "2025-12-06T09:00:00+00:00",
+    "count": 8,
+    "page": 1,
+    "per_page": 8,
+    "total_pages": 1
+  },
+  "posts": [
+    {
+      "id": "post_001",
+      "title": "Understanding HTTP: A Practical Guide for Beginners",
+      "subtitle": "Requests, responses, status codes and how browsers talk to servers",
+      "slug": "understanding-http-practical-guide",
+      "canonical_url": "https://example.com/understanding-http-practical-guide",
+      "published_at": "2025-11-15T10:20:00+00:00",
+      "updated_at": "2025-11-20T08:30:00+00:00",
+      "read_time_minutes": 9,
+      "tags": ["web", "http", "beginners", "networking"],
+      "clap_count": 238,
+      "responses_count": 12,
+      "preview_image": "https://images.example.com/http-guide.jpg",
+      "author": {
+        "id": "auth_01",
+        "name": "Dr. Ama K.",
+        "username": "amak",
+        "bio": "Software engineer & lecturer. Explains complex topics simply.",
+        "avatar": "https://images.example.com/avatars/ama.jpg"
+      },
+      "excerpt": "A hands-on walkthrough of HTTP requests and responses, with examples you can copy and run in the browser or curl.",
+      "body_html": "<p>This article explains how HTTP works...</p>"
+    },
+    {
+      "id": "post_002",
+      "title": "Building a Simple REST API with Node.js",
+      "subtitle": "Create endpoints, return JSON, and test with Postman and curl",
+      "slug": "simple-rest-api-nodejs",
+      "canonical_url": "https://example.com/simple-rest-api-nodejs",
+      "published_at": "2025-10-02T14:00:00+00:00",
+      "updated_at": "2025-10-10T09:15:00+00:00",
+      "read_time_minutes": 11,
+      "tags": ["nodejs", "api", "tutorial", "backend"],
+      "clap_count": 412,
+      "responses_count": 34,
+      "preview_image": "https://images.example.com/node-api.jpg",
+      "author": {
+        "id": "auth_02",
+        "name": "Kwesi Boateng",
+        "username": "kwesib",
+        "bio": "Backend dev and API designer.",
+        "avatar": "https://images.example.com/avatars/kwesi.jpg"
+      },
+      "excerpt": "Step-by-step: create a Node + Express API that serves JSON, includes routing, error handling and basic tests.",
+      "body_html": "<p>Follow along to build a REST API...</p>"
+    },
+    {
+      "id": "post_003",
+      "title": "What JSON Responses Look Like — A Playground for Students",
+      "subtitle": "Examples of realistic server responses and how to consume them in JavaScript",
+      "slug": "json-responses-playground",
+      "canonical_url": "https://example.com/json-responses-playground",
+      "published_at": "2025-09-22T07:45:00+00:00",
+      "updated_at": "2025-11-01T06:00:00+00:00",
+      "read_time_minutes": 7,
+      "tags": ["json", "teaching", "javascript", "apis"],
+      "clap_count": 180,
+      "responses_count": 8,
+      "preview_image": "https://images.example.com/json-playground.jpg",
+      "author": {
+        "id": "auth_03",
+        "name": "Nana Yaa",
+        "username": "nanayaa",
+        "bio": "Front-end dev and educator focused on practical examples.",
+        "avatar": "https://images.example.com/avatars/nana.jpg"
+      },
+      "excerpt": "A curated set of JSON examples (single resource, collections, paginated responses, errors) plus fetch() consumption patterns.",
+      "body_html": "<p>Below are several JSON response shapes you will see in the wild...</p>"
+    },
+    {
+      "id": "post_004",
+      "title": "Error Handling: HTTP Status Codes and Best Practices",
+      "subtitle": "How servers report errors and how clients should respond",
+      "slug": "error-handling-http-status-codes",
+      "canonical_url": "https://example.com/error-handling-http-status-codes",
+      "published_at": "2025-08-05T12:00:00+00:00",
+      "updated_at": "2025-08-05T12:00:00+00:00",
+      "read_time_minutes": 6,
+      "tags": ["http", "errors", "best-practices"],
+      "clap_count": 95,
+      "responses_count": 5,
+      "preview_image": "https://images.example.com/errors.jpg",
+      "author": {
+        "id": "auth_04",
+        "name": "Samuel T.",
+        "username": "samuel_t",
+        "bio": "DevOps and reliability engineer.",
+        "avatar": "https://images.example.com/avatars/samuel.jpg"
+      },
+      "excerpt": "Learn the meaning behind common status codes (4xx, 5xx), when to retry, when to show messages, and JSON error payloads.",
+      "body_html": "<p>Errors are inevitable. This guide helps you handle them correctly...</p>"
+    },
+    {
+      "id": "post_005",
+      "title": "Paginated APIs: Design Patterns and Client Examples",
+      "subtitle": "Offsets, cursors, and how to implement infinite scroll safely",
+      "slug": "paginated-apis-design-patterns",
+      "canonical_url": "https://example.com/paginated-apis-design-patterns",
+      "published_at": "2025-07-18T09:00:00+00:00",
+      "updated_at": "2025-09-06T10:34:00+00:00",
+      "read_time_minutes": 10,
+      "tags": ["api-design", "pagination", "frontend"],
+      "clap_count": 301,
+      "responses_count": 19,
+      "preview_image": "https://images.example.com/pagination.jpg",
+      "author": {
+        "id": "auth_05",
+        "name": "Priya R.",
+        "username": "priyar",
+        "bio": "Software architect who loves clean API design.",
+        "avatar": "https://images.example.com/avatars/priya.jpg"
+      },
+      "excerpt": "Compare offset vs cursor pagination, sample JSON responses for both, and client-side patterns for fetching pages.",
+      "body_html": "<p>Pagination is how APIs scale. We'll compare common approaches...</p>"
+    },
+    {
+      "id": "post_006",
+      "title": "Authentication Flows: Cookies, JWTs, and Authorization Headers",
+      "subtitle": "Which method to choose and how responses reflect authentication state",
+      "slug": "authentication-flows-cookies-jwts",
+      "canonical_url": "https://example.com/authentication-flows-cookies-jwts",
+      "published_at": "2025-06-30T11:30:00+00:00",
+      "updated_at": "2025-10-12T15:00:00+00:00",
+      "read_time_minutes": 12,
+      "tags": ["auth", "security", "jwt", "cookies"],
+      "clap_count": 459,
+      "responses_count": 42,
+      "preview_image": "https://images.example.com/auth.jpg",
+      "author": {
+        "id": "auth_06",
+        "name": "Engineer Kojo",
+        "username": "engkojo",
+        "bio": "Security-minded backend engineer and lecturer.",
+        "avatar": "https://images.example.com/avatars/kojo.jpg"
+      },
+      "excerpt": "Covers server responses for login, refresh tokens, token expiration, and how to handle 401/403 responses on the client.",
+      "body_html": "<p>Authentication affects every API. Learn the trade-offs and sample JSON responses...</p>"
+    },
+    {
+      "id": "post_007",
+      "title": "Real-world JSON: Examples from Blogging Platforms",
+      "subtitle": "How Medium-like services structure posts, authors, and comments",
+      "slug": "real-world-json-blogging-platforms",
+      "canonical_url": "https://example.com/real-world-json-blogging-platforms",
+      "published_at": "2025-11-01T16:00:00+00:00",
+      "updated_at": "2025-11-02T08:00:00+00:00",
+      "read_time_minutes": 8,
+      "tags": ["json", "blogging", "api", "examples"],
+      "clap_count": 212,
+      "responses_count": 16,
+      "preview_image": "https://images.example.com/blog-json.jpg",
+      "author": {
+        "id": "auth_07",
+        "name": "Lydia Mensah",
+        "username": "lydiam",
+        "bio": "Product engineer and API teacher.",
+        "avatar": "https://images.example.com/avatars/lydia.jpg"
+      },
+      "excerpt": "Concrete JSON schemas for posts, nested author objects, comment threads and how to paginate comments safely.",
+      "body_html": "<p>Inspired by real-world platforms, this post shows practical JSON shapes...</p>"
+    },
+    {
+      "id": "post_008",
+      "title": "Hands-on: Fetching and Rendering a Post List (Vanilla JS)",
+      "subtitle": "From fetch() to DOM: display server data as cards with pagination",
+      "slug": "fetch-render-post-list-vanilla-js",
+      "canonical_url": "https://example.com/fetch-render-post-list-vanilla-js",
+      "published_at": "2025-11-25T18:45:00+00:00",
+      "updated_at": "2025-11-25T18:45:00+00:00",
+      "read_time_minutes": 5,
+      "tags": ["javascript", "fetch", "tutorial", "frontend"],
+      "clap_count": 127,
+      "responses_count": 6,
+      "preview_image": "https://images.example.com/fetch-dom.jpg",
+      "author": {
+        "id": "auth_08",
+        "name": "Esi A.",
+        "username": "esia",
+        "bio": "Front-end educator who loves minimal tooling.",
+        "avatar": "https://images.example.com/avatars/esi.jpg"
+      },
+      "excerpt": "A short tutorial that fetches the JSON post list and renders responsive cards, including error and loading states.",
+      "body_html": "<p>Copy the example to see server JSON rendered in the browser...</p>"
+    }
+  ]
+}
