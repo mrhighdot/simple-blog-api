@@ -4,7 +4,7 @@ import payload from "./files/payload.json";
 const app = new Hono();
 
 app.get("/", (c) => {
-  return c.text("Hello Hono!");
+  return c.text("Who sent you here?");
 });
 
 app.get("/blogs/get", async (c: Context) => {
